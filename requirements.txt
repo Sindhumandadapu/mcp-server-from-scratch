@@ -1,0 +1,22 @@
+
+# MCP SDK
+mcp[cli]>=2.0,<3.0
+
+# LangChain
+langchain[mcp]>=1.4.0,<2.0
+langchain-openai
+
+# Backend
+fastapi
+uvicorn[standard]
+
+# Validation and configuration
+pydantic
+python-dotenv
+
+# HTTP requests
+httpx
+
+# Testing
+pytest
+pytest-asyncio

@@ -1,0 +1,46 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# SQLite databases
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Node dependencies
+node_modules/
+client/node_modules/
+
+# React production build
+client/dist/
+
+# Environment and editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Operating system
+.DS_Store
+Thumbs.db
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
